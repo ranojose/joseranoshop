@@ -29,8 +29,8 @@ const App = () => {
       <Container > 
       <Route path='/order/:id' component={OrderScreen}  />
       <Route path='/shipping' component={ShippingScreen}  />
-      <Route path='/payment' component={PlaceOrderScreen}  />
-      <Route path='/placeorder' component={PaymentScreen}  />
+      <Route path='/payment' component={PaymentScreen}  />
+      <Route path='/placeorder' component={PlaceOrderScreen}  />
       <Route path='/login' component={LoginScreen}  />
       <Route path='/register' component={RegisterScreen}  />
       <Route path='/profile' component={ProfileScreen}  />

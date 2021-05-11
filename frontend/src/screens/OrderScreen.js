@@ -50,7 +50,7 @@ const OrderScreen = ({ match, history }) => {
         script.async = true
         script.onload = () => {
             setSdkReady(true)
-        }
+        }   
         document.body.appendChild(script)
     } 
 
